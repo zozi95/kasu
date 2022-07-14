@@ -10,28 +10,24 @@ header {
   justify-content: center;
   align-items: center;
 }
-.title {
-  font-size: 1.4rem;
-  display: flex;
-  color: rgb(255, 212, 157);
-  justify-content: center;
-  align-items: center;
-  width: 20%;
-  height: 100%;
-}
 .contents {
   width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-
+.list {
+  font-size: 1.3rem;
+}
 .title,
 .contents {
   cursor: pointer;
 }
 
 @media (max-width: 1024px) {
+  .list {
+    font-size: 1rem;
+  }
   header {
     font-size: 0.5rem;
     width: 100%;

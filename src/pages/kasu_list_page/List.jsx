@@ -7,7 +7,6 @@ const List = () => {
     <List_Style>
       <div className="lists">
         <span>
-          {" "}
           오늘의 랭킹 | 주간 랭킹 | 월간 랭킹 | 새로운가수 | 장르별 분류
         </span>
         {characters_array.map((data, index) => (
@@ -16,7 +15,7 @@ const List = () => {
               <img src={data} alt="" />
             </div>
             <div className="name">홍길동{index}</div>
-            <div className="name">노래제목~~(이수)</div>
+            <div className="name">노래제목</div>
             <div className="name">재생</div>
             <div className="name">정지</div>
             <div className="name">좋아요</div>

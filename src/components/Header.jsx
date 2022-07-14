@@ -11,13 +11,13 @@ const Header = () => {
           home
         </div>
         <div className="list" onClick={() => navigate("/list")}>
-          kasu list
+          list
         </div>
         <div className="list" onClick={() => navigate("/upload")}>
-          norae upload
+          upload
         </div>
         <div className="list" onClick={() => navigate("/signup")}>
-          kasu sign up
+          sign up
         </div>
       </div>
     </header>

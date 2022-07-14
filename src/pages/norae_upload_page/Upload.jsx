@@ -1,28 +1,25 @@
 import React from "react";
+import { Upload_Style } from "../../Style/Upload_Style";
 
 const Upload = () => {
+  const datas = [{ title: "제목", layout: <div></div> }];
+
   return (
-    <div>
-      업로드페이지 <br />
-      <br />
-      <br />
-      제목 : ------------- *필수
-      <br />
-      <br />
-      노래제목(원작자 표기하시오): -------------
-      <br />
-      <br />
-      사연 : ------------- <br />
-      <br />
-      파일 업로드 : ------------- <br />
-      <br />
-      댓글 유무 : -------------
-      <br />
-      <br />
-      연락받을 이메일 : ------------- <br />
-      <br />
-      캐릭터 선택창 ㅁㅁㅁ ㅁㅁㅁ or 이미지 업로드
-    </div>
+    <Upload_Style>
+      <input type="text" placeholder="제목을 입력해주세요." />
+      <input type="text" placeholder="노래 원곡제목을 입력해주세요." />
+      <input type="text" placeholder="이메일을 입력해주세요."></input>
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="이 컨텐츠에대해 설명해주세요."
+      ></textarea>
+      <button>파일업로드</button>
+      <button>댓글유무 on</button>
+      <div>캐릭터를 선택해주세요</div>
+    </Upload_Style>
   );
 };
 
