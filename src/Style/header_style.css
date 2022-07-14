@@ -1,0 +1,39 @@
+header {
+  width: 70%;
+  border-radius: 0px 0px 20px 20px;
+  height: 8vh;
+  color: orange;
+  font-weight: bolder;
+  font-size: 1rem;
+  box-shadow: 0px 0px 8px 2px rgb(231, 231, 231);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 1.4rem;
+  display: flex;
+  color: rgb(255, 212, 157);
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+}
+.contents {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title,
+.contents {
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  header {
+    font-size: 0.5rem;
+    width: 100%;
+  }
+}
